@@ -1,0 +1,25 @@
+ $ git init
+ Initialized 
+empty 
+Git 
+repository 
+in 
+hw/sol/.git/
+ $ git add main.cpp
+ $ git add vec.h 
+$ git commit -m "Initial commit"
+ [master (root-commit) 630b3f8] Initial 
+commit
+ 2 files changed, 91 insertions(+)
+ create mode 100644 vec.h
+ create mode 100644 main.cpp
+ $ git remote add origin https://github.com/particleincell/ASTE-499-test.git
+ $ git push -u origin master
+ Counting objects: 4, done.
+ Delta compression using up to 12 threads.
+ Compressing objects: 100% (4/4), done.
+ Writing objects: 100% (4/4), 1.20 KiB | 1.20 MiB/s, done.
+ Total 4 (delta 0), reused 0 (delta 0)
+ To https://github.com/particleincell/ASTE-499-test.git
+ * [new branch]      master -> master
+ Branch 'master' set up to track remote branch 'master' from 'origin'.
